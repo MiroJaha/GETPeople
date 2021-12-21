@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		84367A1927725459000FD919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A1827725459000FD919 /* AppDelegate.swift */; };
 		84367A1B27725459000FD919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A1A27725459000FD919 /* SceneDelegate.swift */; };
-		84367A1D27725459000FD919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A1C27725459000FD919 /* ViewController.swift */; };
+		84367A1D27725459000FD919 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A1C27725459000FD919 /* PeopleViewController.swift */; };
 		84367A2027725459000FD919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84367A1E27725459000FD919 /* Main.storyboard */; };
 		84367A2327725459000FD919 /* GETPeople.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84367A2127725459000FD919 /* GETPeople.xcdatamodeld */; };
 		84367A252772545A000FD919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84367A242772545A000FD919 /* Assets.xcassets */; };
@@ -40,7 +40,7 @@
 		84367A1527725459000FD919 /* GETPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GETPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84367A1827725459000FD919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84367A1A27725459000FD919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84367A1C27725459000FD919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84367A1C27725459000FD919 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		84367A1F27725459000FD919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84367A2227725459000FD919 /* GETPeople.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GETPeople.xcdatamodel; sourceTree = "<group>"; };
 		84367A242772545A000FD919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 			children = (
 				84367A1827725459000FD919 /* AppDelegate.swift */,
 				84367A1A27725459000FD919 /* SceneDelegate.swift */,
-				84367A1C27725459000FD919 /* ViewController.swift */,
+				84367A1C27725459000FD919 /* PeopleViewController.swift */,
 				84367A1E27725459000FD919 /* Main.storyboard */,
 				84367A242772545A000FD919 /* Assets.xcassets */,
 				84367A262772545A000FD919 /* LaunchScreen.storyboard */,
@@ -261,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84367A1D27725459000FD919 /* ViewController.swift in Sources */,
+				84367A1D27725459000FD919 /* PeopleViewController.swift in Sources */,
 				84367A1927725459000FD919 /* AppDelegate.swift in Sources */,
 				84367A1B27725459000FD919 /* SceneDelegate.swift in Sources */,
 				84367A2327725459000FD919 /* GETPeople.xcdatamodeld in Sources */,
